@@ -6,5 +6,5 @@ moji is simple dmenu script to insert a unicode caracter
 - xdotools
 
 # it work
-moji is very simple script which keeps adding first word of match form file '~/.confin/moji' until do not catch escape.
+moji is very simple script which keeps adding first word of match form file '~/.confin/moji' to stdin until do not catch escape.
 
