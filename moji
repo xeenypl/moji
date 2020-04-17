@@ -1,7 +1,7 @@
 #!/bin/sh
 
 while true; do
-  input=$(dmenu -l 10 < ./kanji | cut -d " " -f 1)
+  input=$(dmenu -l 10 < ~/.comfig/moji | cut -d " " -f 1)
   [ ${#input} -eq  0 ] && exit
   xdotool type $input 
 done
